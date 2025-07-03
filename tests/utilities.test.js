@@ -22,7 +22,7 @@ test("isValidDateString: invalid format", () => {
   expect(1).toBe(1);
 });
 
-//Test for the wrong amount of "date segments" (see comments in utilities.js for more info)
+//Test for the wrong amount of "date segments"
 test("isValidDateString:invalid format (only day and month provided)", () => {
   expect(isValidDateString("12/03")).toBe(false);
 });
