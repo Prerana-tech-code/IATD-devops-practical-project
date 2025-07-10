@@ -1,9 +1,9 @@
 import { isValidDateString, wrapString } from "../src/utilities";
 import { myFunc } from "../src/utilities.js";
 
-test("failing test", () => {
-  expect(1).toBe(2); // To check Annotation is working
-});
+//test("failing test", () => {
+//expect(1).toBe(2); // To check Annotation is working
+//});
 
 test("wrapString: wrap single word over two lines", () => {
   expect(wrapString("Long", 3)).toBe("Lo-\nng");
