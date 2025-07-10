@@ -17,7 +17,7 @@ const invChangeMenuOptions = [
   "Add/remove stock for existing item",
   "Add stock for new item",
 ];
-//const testVariable = 123; // ESLint will show this as unused
+const testVariable = 123; // ESLint will show this as unused
 
 let itemCategories = ["Food", "Clothing", "Electronics"];
 let inventoryItems = [
