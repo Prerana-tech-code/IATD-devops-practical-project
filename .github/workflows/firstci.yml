@@ -25,7 +25,7 @@ jobs:
         uses: ataylorme/eslint-annotate-action@v3
         with:
           only-pr-files: false
-          report-json: eslint-results.json
+          report-json: eslint_report.json
 
       - name: run test
         run: npm test
